@@ -6,7 +6,13 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      'Darker': ['Darker Grotesque', 'sans-serif']
+    },
     extend: {
+      backgroundImage: {
+        'blog-intro': "url('/blog_intro_wave.png')",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

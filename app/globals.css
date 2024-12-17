@@ -19,3 +19,22 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+.bannerBg{
+  background: url('../public/bnnar/bg.jpg') no-repeat center;
+}
+
+.heading{
+  @apply font-Darker font-semibold text-[50px] text-black capitalize leading-[100%]
+}
+
+.footerBg{
+  background: url("../public/Footer.png") no-repeat ;
+  background-position: bottom;
+  height: 620px;
+}
+
+.freeTrial{
+  background: url("../public/CTA.png") no-repeat ;
+  background-position: bottom;
+  
+}
